@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+    url(../assets/imgs/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.cardHover {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.cardHover:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

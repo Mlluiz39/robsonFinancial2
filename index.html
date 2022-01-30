@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style_login.css" />
+    <title>login financial</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="content-image">
+        <img
+          src="./assets/imgs/undraw_About_us_page_re_2jfm 1.svg"
+          alt="image-contacts"
+        />
+      </div>
+
+      <div class="content-form">
+        <p class="paragraph-login">Bem vindo de volta</p>
+        <h1>Faça login na sua conta</h1>
+        <div id="error-message"></div>
+        <label id="user-label">Usuário</label>
+        <input
+          class="login"
+          type="user"
+          name="user"
+          id="user"
+          placeholder="Digite seu usuário"
+        />
+        <label id="pass-label">Senha</label>
+        <input
+          class="login"
+          type="pass"
+          name="pass"
+          id="pass"
+          placeholder="Digite sua senha"
+        />
+        <div class="remember-me">
+          <input type="radio" name="remember-me" id="remember-me" />
+          <span>Lembrar de mim</span>
+          <a href="#">Esqueceu sua senha?</a>
+        </div>
+        <button class="button-login" type="submit" id="btn-login">Entrar</button>
+        <button class="register-button">
+          <img
+            src="./assets/imgs/iconfinder_Google_1298745 1.svg"
+            alt=""
+          /><span>Ou faça login com o Google</span>
+        </button>
+        <p class="register">
+          Não tem conta?
+          <a href="./cadastrar_usuario.html">Cadastre-se</a>
+        </p>
+      </div>
+    </div>
+   <script src="./js/login.js"></script>
+  </body>
+</html>
